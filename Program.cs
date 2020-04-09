@@ -35,9 +35,7 @@ namespace HomeWork09._04
             player.Play();
             player.Pause();
             player.Stop();
-            player.StartRecord();
-            player.PauseRecord();
-            player.StopRecord();
+            player.Record();
             Console.ReadKey();
         }
     }

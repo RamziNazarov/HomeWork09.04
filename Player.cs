@@ -6,12 +6,7 @@ namespace HomeWork09._04
     {
         public void Pause()
         {
-            System.Console.WriteLine("Проигрывание поставлено на паузу");;
-        }
-
-        public void PauseRecord()
-        {
-            System.Console.WriteLine("Запись поставлена на паузу");;
+            System.Console.WriteLine("Пауза");;
         }
 
         public void Play()
@@ -19,19 +14,14 @@ namespace HomeWork09._04
             System.Console.WriteLine("Проигрывание");
         }
 
-        public void StartRecord()
+        public void Record()
         {
-            System.Console.WriteLine("Запись");
+           System.Console.WriteLine("Запись");;
         }
 
         public void Stop()
         {
-            System.Console.WriteLine("Проигрывание остановлено");
-        }
-
-        public void StopRecord()
-        {
-            System.Console.WriteLine("Запись остановлена");
+            System.Console.WriteLine("Остановить");
         }
     }
     interface IPlayable
@@ -42,8 +32,8 @@ namespace HomeWork09._04
     }
     interface IRecodable
     {
-        void StartRecord();
-        void PauseRecord();
-        void StopRecord();
+        void Record();
+        void Pause();
+        void Stop();
     }
 }
