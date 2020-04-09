@@ -30,6 +30,15 @@ namespace HomeWork09._04
                     }
                 System.Console.Write("Нажмите на любую клавишу чтобы продолжить...");Console.ReadKey();
             }
+            Console.Clear();
+            Player player = new Player();
+            player.Play();
+            player.Pause();
+            player.Stop();
+            player.StartRecord();
+            player.PauseRecord();
+            player.StopRecord();
+            Console.ReadKey();
         }
     }
 }
