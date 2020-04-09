@@ -1,5 +1,4 @@
 ﻿using System;
-using System.IO;
 
 namespace HomeWork09._04
 {
@@ -29,7 +28,7 @@ namespace HomeWork09._04
                             DW.SaveDocument();
                         break;
                     }
-                    System.Console.Write("Нажмите на любую клавишу чтобы продолжить...");Console.ReadKey();
+                System.Console.Write("Нажмите на любую клавишу чтобы продолжить...");Console.ReadKey();
             }
         }
     }
